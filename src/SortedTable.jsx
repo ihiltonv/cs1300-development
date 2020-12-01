@@ -1,11 +1,6 @@
 import React from 'react';
-import {PageHeader, Menu, Select, Row, Col, Space, Layout, Empty, Typography} from 'antd';
+import {Row, Col, Space} from 'antd';
 import Plant from './Plant'
-
-const {SubMenu} = Menu
-const {Option} = Select
-const { Header, Footer, Sider, Content } = Layout;
-const { Title, Paragraph } = Typography;
 
 const sortPlants = (items, sortBy) => {
     let sortFunc = undefined

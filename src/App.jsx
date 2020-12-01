@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
 import { plant_data } from './data.jsx'
-import {PageHeader, Menu, Select, Row, Col, Space, Layout, Empty, Typography, Button} from 'antd';
+import {PageHeader, Menu, Select, Row, Col, Layout, Typography} from 'antd';
 import Plant from './Plant'
 import SortedTable from "./SortedTable";
 
-const {SubMenu} = Menu
 const {Option} = Select
-const { Header, Footer, Sider, Content } = Layout;
+const { Sider, Content } = Layout;
 const { Title, Paragraph } = Typography;
 
 
