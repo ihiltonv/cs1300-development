@@ -1,4 +1,8 @@
-## README
+# README
+
+A basic React app using the Ant Design library to demonstrate filtering and sorting functionality in React.
+
+
 In this project there are three main components: App, SortedTable, and Plant. The App component contains all the main
 functionality of the project, and renders the main page, which includes the header, the main body, and the cart sidebar.
 It also holds the data for the plant items that are displayed, as well as the data for which items are selected to filter
